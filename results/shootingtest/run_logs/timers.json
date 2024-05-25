@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1714397069",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mirko\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\mlagents-learn --run-id=shootingtest",
+        "mlagents_version": "1.0.0",
+        "mlagents_envs_version": "1.0.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cu117",
+        "numpy_version": "1.23.1",
+        "end_time_seconds": "1714397131"
+    },
+    "total": 62.58741629999713,
+    "count": 1,
+    "self": 0.0038115000061225146,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0743112999771256,
+            "count": 1,
+            "self": 0.0743112999771256
+        },
+        "TrainerController.start_learning": {
+            "total": 62.50929350001388,
+            "count": 1,
+            "self": 9.739998495206237e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.509182500012685,
+                    "count": 1,
+                    "self": 62.509182500012685
+                },
+                "TrainerController._save_models": {
+                    "total": 1.3600016245618463e-05,
+                    "count": 1,
+                    "self": 1.3600016245618463e-05
+                }
+            }
+        }
+    }
+}
